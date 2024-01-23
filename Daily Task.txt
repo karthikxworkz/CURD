@@ -1,0 +1,162 @@
+1) Variable Arguments (Varargs) in Java is a method that takes a variable number of arguments.
+   Variable Arguments in Java simplifies the creation of methods that need to take a variable number of arguments.
+    Syntax : public static void fun(int ... a) {
+     // method body
+     }
+
+2) Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
+   To declare an array, define the variable type with square brackets.
+    String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+  //Array length
+   public class Main {
+  public static void main(String[] args) {
+    String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+    System.out.println(cars.length);
+  }
+}
+
+3) The method in Java or Methods of Java is a collection of statements that perform some specific task.
+   Syntax :
+    <access_modifier> <return_type> <method_name>( list_of_parameters)
+    {
+     //body
+     }
+
+    Access Specifier: Access specifier or modifier is the access type of the method. It specifies the visibility of the method. Java provides four
+                     Java provides four types of access specifier are:-
+    Public: The method is accessible by all classes when we use public specifier in our application.
+    Private: When we use a private access specifier, the method is accessible only in the classes in which it is defined.
+    Protected: When we use protected access specifier, the method is accessible within the same package or subclasses in a different package.
+    Default: When we do not use any access specifier in the method declaration, Java uses default access specifier by default. It is visible only 
+             from the same package only.
+
+  ->> Advantage of Method
+      Code Reusability.
+      Code Optimization.
+
+  Types of Method are:
+    Static Method:A method that has static keyword is known as static method. 
+    Instance Method:The method of the class is known as an instance method. It is a non-static method defined in the class.
+ 
+4) Abstraction in Java is a process of hiding the implementation details from the user and showing only the functionality to the user.
+   In Java, abstraction is achieved by interfaces and abstract classes. We can achieve 100% abstraction using interfaces.
+   
+   Interfaces in Java:-
+   The interface in Java is a mechanism to achieve abstraction. There can be only abstract methods in the Java interface, not the method body. It is    
+    used to achieve abstraction and multiple inheritances in Java using Interface.
+   --->>Uses of Interfaces in Java are:-
+   ->It is used to achieve total abstraction.
+   ->Since java does not support multiple inheritances in the case of class, by using an interface it can achieve multiple inheritances.
+   ->Any class can extend only 1 class but can any class implement an infinite number of interface.
+   ->It is also used to achieve loose coupling.
+   ->Interfaces are used to implement abstraction. 
+ 
+   Nested Interface in Java:-
+   We can declare interfaces as members of a class or another interface.
+
+   Marker interface in Java:-
+   It is an empty interface (no field or methods). Examples of marker interface are Serializable, Cloneable and Remote interface. All these
+    interfaces are empty interfaces. 
+    syntax:-public interface Serializable {
+             // nothing here 
+             }
+    
+5) Abstract class is a restricted class that cannot be used to create objects.
+ ->An abstract class must be declared with an abstract keyword.
+ ->It can have abstract and non-abstract methods.
+ ->It can have constructors and static methods also.
+  ->It can have final methods which will force the subclass not to change the body of the method.
+ syntax:-abstract class A{
+             }
+--------------------------------------------------------------------------------
+   17/01/24
+
+1) Collection is the sometimes called a container — is simply an object that groups multiple elements into a single unit. 
+
+2)Collection hierarchy
+                            Iterable[I]
+                               ||(extends)
+                            Collection[I]
+                               ||(extends)
+ 1)List                     2)Set[I]-----------  SortedSet[I]       3)Queue                 
+   ||(implements)               ||(implements)      |(implements)
+ArrayList(C)                 LinkedHashSet(C)    TreeSet(C)
+    | (implements)               |(implements)
+LinkedList(C)                 HashSet(C)
+                               |(implements)
+                          
+
+3) Collection frameWork is a unified architecture for representing and manipulating collections.
+It contains the framework are as follows:
+*Interfaces
+*Implementations
+*Alogorithms
+
+4) API is the unified framework for representing and manipulating collections, allowing them to be manipulated independent of the details of their representation.
+
+5) Advantages of Collection frameWork are as follows:-
+ * It reduces the Programming effort.
+ * It increases the program speed and qualtity.
+ * It reduces the effort of learn and to use new APIs.
+ * It reduces the effort to design new APIs.
+ * It fosters software reuse.
+
+6) Interfaces present in collection hierarcy are :-
+   *Iterable
+   *Collection
+   *List
+   *Set
+   *SortedSet
+   *Queue
+  Implementation present in collection hierarcy are:-
+   *ArrayList
+   *LinkedList
+   *LinkedHashSet
+   *HashSet
+   *TreeSet
+
+Collection vs Collections:                                                           
+
+                                  Collection	                                          Collections
+It is an interface.	                                                         It is a utility class.
+
+It is used to represent a group of individual objects as a single unit. 	It defines several utility methods that are used to operate on collection.
+
+The Collection is an interface that contains a static method since java8.        It contains only static methods.	
+ The Interface can also contain abstract and default methods.                                                 
+
+
+
+Question:Difference between Iterable and Iterator?
+
+         iterable
+* It is related to forEach loop                                                       iterator
+                                                                                 * Is is related to Collection
+
+The target element of the forEach loop shouble be iterable.                       * We can use Iterator to get the object one by one from the Collection
+
+
+Iterable present in java.ḷang package                                             * Iterator present in java.util package
+
+
+Contains only one method iterator()                                               * Contains three method hasNext(), next(), remove()
+
+
+Introduced in 1.5 version                                                         * Introduced in 1.2 version
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,189 @@
+-------EXCEPTIONS------                          
+CharConversionException.                         
+EOFException
+FileNotFoundException
+InvalidPropertiesFormatException
+MissingFormatArgumentException
+MissingFormatWidthException
+MissingResourceException
+NosuchElementsException
+TooManyListenersException
+InterruptedIOException
+InvalidClassException
+InvalidObjectException
+IOException
+NotActiveException
+NotSerializableException
+objectStreamException
+optionalDataException
+StreamCorruptedException
+SyncFailedException
+UnsupportedEncodingException
+UTFDataFormatException
+WriteAbortedException
+Concurrent modificationException
+DulpicateFormatFlagsException
+EmptyStackException
+FormatFlagsConversionMismatchException
+FormatteraclosedException
+IllegalFormatCodePointException
+IllegalFormatConversionsException
+IllegalFormatException
+IllegalFormatFlagsException
+IllegalFormatPrecisionException
+IllegalFormatWidthException
+IllformedLocaleException
+InputMismatchException
+UnknownaFormatConversionsException
+UnknownFormatFlagsException
+InaccessibleObjectException
+InvocationTargetException
+MalformedParamerterisedTypeException
+MalformedParametersException
+UndeclaredaThrowableException
+DatatimeException
+
+
+ -------ERRORS--------
+GenericSignatureFormatError
+NoSuchFieldError
+NoSuchMethodError
+OutOfMemoryError
+UnknownError
+UnsatisfiedLinkError
+UnsupportedClassVersionError
+VerifyError
+AssertionError
+BootstrapMethodError
+ClassCircularityError
+ClassFormatError
+Error
+ExceptionInInitializerError
+IllegalAccessError
+IncompatibleClassChangeError
+InstantiationError
+InternalError
+LinkageError
+NoClassDefFoundError
+VirtualMachineError
+GenericSignatureFormatError 
+
+
+--------CHECKED EXCEPTION----- 
+BufferedainputStream
+BufferedOutputStream
+ByteArrayInputStream
+DataInputStream
+DatoutputStream
+FileInputastream
+FileOutputStream
+FilterInputStream
+FilterOutputStream 
+InputStream
+LinenumberInputStream
+ObjectInputStream
+ObjectoutputStream
+Output stream
+PipedInputStream
+PipedOutputStream
+PrintStream
+PushbackInputStream
+SequenceInputastream
+StringBufferInputStream
+classNotFoundException
+interruptedException
+IOException
+InstantiationException
+SQLException
+FileNotFoundException
+
+
+-------UNCHECKED EXCEPTION-----
+BufferedReader
+BufferedWritter
+CharArrayReader
+CharArrayWritter
+FileReader
+FileWritter
+FilterReader
+FilterWritter
+InputStreamReader
+LineNumberReader
+ObjectStreamClass
+ObjectStreamFeild
+Outputstreamwriter
+PipedReader
+PipiedWritter
+PrintWritter
+PushbackReader
+Reader
+StringReader
+StringWriter
+Writer
+ArithmeticException
+ClassCastException
+NullPointerException
+ArrayIndexOutOfBoundException
+ArrayStoreException
+IllegalThreadException  
+                                  
+
+----DATABASE RELATED ERROR && EXCEPTION----
+
+Exception name   	Oracle Database     error number	SQLCODE	Description
+
+ACCESS_INTO_NULL          ORA-06530           -6530               Program attempted to assign values to the attributes of an uninitialized object.
+
+CASE_NOT_FOUND            ORA-06592           -6592              None of the choices in the WHEN clauses of a CASE statement is selected and there is no ELSE clause.
+
+COLLECTION_IS_NULL          ORA-06531          -6531            Program attempted to apply collection methods other than EXISTS to an uninitialized nested table or                                                                                                                                                                       varray,  or program attempted to assign values to the elements of an uninitialized nested table or varray.                                       
+
+CURSOR_ALREADY_OPENED      ORA-06511         -6511              Program attempted to open an already opened cursor.
+
+DUP_VAL_ON_INDEX            ORA-00001          -1              Program attempted to insert duplicate values in a column that is constrained by a unique index.
+ 
+INVALID_CURSOR              ORA-01001          -1001           There is an illegal cursor operation.  
+
+INVALID_NUMBER             ORA-01722         -1722           Conversion of character string to number failed.
+
+NO_DATA_FOUND              ORA-01403           +100            Single row SELECT returned no rows or your program referenced a deleted element in a nested table or an                       
+                                                                uninitialized element in an associative array (index-by table).
+
+ PROGRAM_ERROR              ORA-06501          -6501          PL/SQL has an internal problem.           
+
+ ROWTYPE_MISMATCH         ORA-06504            -6504           Host cursor variable and PL/SQL cursor variable involved in an assignment statement have incompatible return types.
+
+STORAGE_ERROR              ORA-06500          -6500            PL/SQL ran out of memory or memory was corrupted.
+
+SUBSCRIPT_BEYOND_COUNT     ORA-06533           -6533           A program referenced a nested table or varray using an index number larger than the number of elements in the collection.
+
+SUBSCRIPT_OUTSIDE_LIMIT      ORA-06532        -6532           A program referenced a nested table or varray element using an index number that is outside the legal range (for example, -1).                            
+
+ SYS_INVALID_ROWID        ORA-01410         -1410             The conversion of a character string into a universal rowid failed because the character string does not represent a ROWID value.              	
+ 
+VALUE_ERROR              ORA-06502           -6502            An arithmetic, conversion, truncation, or size constraint error occurred.                   	
+
+ TOO_MANY_ROWS          ORA-01422           -1422           Single row SELECT returned multiple rows. 
+
+      
+ZERO_DIVIDE           ORA-01476           -1476             A program attempted to divide a number by zero.       
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
