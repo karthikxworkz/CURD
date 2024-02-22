@@ -1,8 +1,3 @@
-package Abstraction.CrudOpertion;
-
-public class CrudOperationINT {
-	
-	int index=0;
-	int 
-
+public static void main(String args){
+System.out.println("Hello World");
 }

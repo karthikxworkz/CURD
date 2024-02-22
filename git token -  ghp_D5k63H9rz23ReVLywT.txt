@@ -1,0 +1,100 @@
+git token :-  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
+git link      https://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@github.com/karthikxworkz/xworkz-java.git
+
+                https://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@github.com/karthikxworkz/xworkz-java.git
+
+git clone https://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@github.com/karthikxworkz/Web-Technology.git
+karthikxworkz
+
+
+
+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
+
+git clone https://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@github.com/karthikxworkz/xworkz-java.git
+
+
+
+git add .
+git commit -m "first commit"
+git push origin main
+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
+
+
+git token :  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
+23/01/2024
+git token:- 
+ git clone https://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@github.com/karthikxworkz/xworkz-java.git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+public class StreamServiceImp implements StreamService {
+        private StreamRepository repository;
+        public StreamServiceImp(StreamRepository repository) {
+        	this.repository=repository;
+        }
+        
+	@Override
+	public boolean validateSave(String streamName) {
+		if(streamName.isEmpty()
+				||streamName.isBlank()
+				||(streamName.length()<3&&streamName.length()>25)
+				||streamName==null) {
+			System.out.println("give correct name");
+		}else{
+			boolean exist=isExists(streamName);
+			if(exist!=true) {
+				
+		
+boolean save=repository.onSave(streamName);
+			if(save) {
+				System.out.println("Stream name saved successfully");
+				return true;
+			}else {
+				System.out.println("stream name is not saved successfully");
+				return false;
+			}
+			
+		}else {
+			System.out.println("stream name is already exist");
+		}
+		}
+		
+		return false;
+…

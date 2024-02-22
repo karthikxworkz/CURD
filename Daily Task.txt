@@ -115,6 +115,7 @@ It contains the framework are as follows:
    *HashSet
    *TreeSet
 
+
 Collection vs Collections:                                                           
 
                                   Collection	                                          Collections
@@ -127,7 +128,7 @@ The Collection is an interface that contains a static method since java8.       
 
 
 
-Question:Difference between Iterable and Iterator?
+ Iterable and Iterator
 
          iterable
 * It is related to forEach loop                                                       iterator

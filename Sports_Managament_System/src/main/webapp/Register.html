@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="submit">
+
+
+		 <label type="username">UserName</label> 
+		 <input type="text" name="username" placeholder="username" onblur="onName()" id="userName"/> 
+		 <br>
+		 <span id="nameError" style="color:red;"></span>
+			<br>
+			 <label type="email">Email</label>
+		<input type="email"  name="email"
+		placeholder="email" required="required">
+		<br>
+		 <label type="password">Password</label> <input
+			type="password" name="password"
+			placeholder="password" required="required">
+			 <br>
+		<label type="confirm password">Confirm Password</label> <input
+			type="confirm password"  name="confirm password"
+			placeholder="confirm password" required="required">
+			<br>
+			 <input type="submit" id="button" disabled="disabled">
+	</form>
+	
+	<script>
+	function onName(){
+		var name=document.getElementById("userName").value;
+		if(name.length<3){
+			document.getElementById("nameError").innerHTML="invalid name ,enter minimum 3 characters";
+			document.getElementById("button").disabled=true
+		}
+		else{
+			
+		document.getElementById("nameError").innerHTML="";
+		document.getElementById("button").disabled=false;
+		}
+	}
+	</script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+collection hierarcy
+
+      Iterable[I]
+      collection[I]
+List[I]         Set[I]     Queue[I]
+              
+             SortedSet
+             (TreeSet(c))
+arrayList(c)    LinkedHashSet(c)
+LinkedList(c)   HashSet(c)
+--------------------------------
+ Iterable[I]
+      collection[I]
+List[I]         Set[I]     Queue[I]
+              
+             SortedSet
+             (TreeSet(c))
+arrayList(c)    LinkedHashSet(c)
+LinkedList(c)   HashSet(c)
+------------------------------
+Iterable[I]
+      collection[I]
+List[I]         Set[I]     Queue[I]
+              
+             SortedSet
+             (TreeSet(c))
+arrayList(c)    LinkedHashSet(c)
+LinkedList(c)   HashSet(c)
+----------------------------------
+ Iterable[I]
+        collection[I]
+List[I]          Set[I]      Queue[I]
+                 
+                 SortedSet[I]
+                  (treeSet(c))
+ArrayList(c)      LinkedHashSet(c)
+LinkedList(c)      HashSet(c)
+---------------------------------
+Iterable[I]
+          collection[I]
+List[I]          Set[I]         queue[I]
+                  
+
+ArrayList[I]       SortedSet[I]
+LinkedList[I]      (treeSet(c))
+                    LinkedHashSet(c)
+                    HashSet(c)
+---------------------------------------
+ Iterable[I]
+      collection[I]
+List[I]         Set[I]     Queue[I]
+              
+             SortedSet
+             (TreeSet(c))
+
+arrayList(c)    LinkedHashSet(c)
+LinkedList(c)   HashSet(c)
+-----------------------------------
+ Iterable[I]
+      collection[I]
+List[I]         Set[I]     queue[I]
+              
+             SortedSet
+             (TreeSet(c))
+
+ArrayList(c)    LinkedHashSet(c)
+LinkedList(c)   HashSet(c)
+-----------------------------------
+ Iterable[I]
+      collection[I]
+List[I]         Set[I]     Queue[I]
+              
+             SortedSet
+             (TreeSet(c))
+ArrayList(c)    LinkedHashSet(c)
+LinkedList(c)   HashSet(c)
+---------------------------------
+Iterable[I]
+         collection[I]
+List[I]             Set[I]          Queue[I]
+
+                  SortedSet[I]
+                  (treeSet(c))
+ArrayList(c)      LinkedHashSet(c)
+LinkedList(c)      HashSet(c)
+----------------------------------
